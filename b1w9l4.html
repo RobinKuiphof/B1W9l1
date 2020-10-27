@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>opdracht-1</title>
+</head>
+<body>
+	<script>
+function tafel(){
+	var nummer = (15);
+	while(nummer >= 11){
+	var nummer = prompt("tot welke tafel wil je?")		
+	}
+	var nummer1 = (0);
+	while(nummer1 <= nummer ){
+	    for(var i = 1; i <= 10; i++){
+	    var antwoord = (i * nummer1); 
+		document.write( nummer1 + " x " + i + " = " + antwoord + "<br>");	
+		}
+		document.write("<br>");
+		var nummer1 = (nummer1 + 1);
+	}
+}
+tafel();
+
+	</script>
+</html>
